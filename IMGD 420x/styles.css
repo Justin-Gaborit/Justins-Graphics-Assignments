@@ -1,0 +1,37 @@
+  /*FONT*/
+  @font-face
+  {
+    font-family: 'comfortaa';
+    src: url('../fonts/comfortaa/comfortaa-regular-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa/comfortaa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /*STYLES*/
+  .background
+  {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  .pageheader
+  {
+    font: comfortaa;
+    font-size: 40px;
+    color: white;
+  }
+
+  .listheader
+  {
+    font: comfortaa;
+    font-size: 30px;
+    color: white;
+  }
+
+  .liststyle
+  {
+    font: comfortaa;
+    font-size: 20px;
+    color: white;
+  }
