@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Site Title -->
+	<title>Justin Gaborit's Project#2 Description</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS links -->
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+
+<body style='background: black;'>
+    <div class='div_style'>
+        <p class='paratext'>
+
+        Project #2 Description
+        <br><br>
+        
+        For this project, my main goals were to understand how to combine html, JavaScript, WebGl, and GLSL. I set out to create a website that could host a camera feed while also overlaying a cellular noise shader. One of the major challenges I faced (while it was also an interesting problem to solve) was figuring out how to gain access to a uniform float inside the fragment shader script so that I could allow the user to modify values such as the noise scale and the tiling effect built into the shader. In conclusion, I made use of “gl.getUniformLocation” in order to locate and modify the values of the shader uniforms that I wanted to allow the user to play around with. One the shader uniform was located and given a JavaScript var to be compared/set to, I created a series of JavaScript keyboard inputs. These inputs use simple “if” statements and “keydown” functions to detect if the user is pressing a key down. The script will then increase or decrease a shader uniform value depending on the key pressed by the user. In order to accomplish this project, I made use of the WebGL template and combined it with a customized version of the cellular noise shader found in “The Book of Shaders”.
+        <br><br>
+
+        My original aesthetic goal was to create a camera feed that appeared to have static interference disrupting it. I think the best I was actually able to achieve with my skill set was more of a faded orange self printing camera image look. I wish I could have made more of a static noise looking shader, but I think this still turned out interesting enough. Part of me also thinks it looks like a silvertoned music video shader, similar to those seen in the 90’s.
+        <br><br>
+
+        The project didn’t exactly meet my expectations, but I will say I learned a whole lot of WebGL and JavaScript. Both are languages / API’s I have never touched before until this project but I had a really good time challenging myself to find ways to meet the project's requirements. My favorite part was learning about the different methods of referencing and modifying uniforms from a shader script. I wasn’t able to get tweakpane to work although I would have liked to be able to but I was sadly running out of time so I instead had to opt for keyboard inputs to change values. Not quite as flashy as tweakpane but I still learned some new stuff about JavaScript.
+        <br><br>
+        - Justin Gaborit
+</p>
+    </div>    
+</body>
+
+</html>
