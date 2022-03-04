@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Site Title -->
+	<title>Justin Gaborit's Project#2 Description</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS links -->
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+
+<body style='background: black;'>
+    <div class='div_style'>
+        <p class='paratext'>
+
+        Final Project Description
+        <br><br>
+
+        The primary goal of my project was to build some sort of simulation in the Unity3D game engine that made use of a ray marching algorithm. I wanted to create a program that would allow a user to move around a scene and visualize a simulation while having the ability to modify values that will also modify the behavior of the simulation. 
+        <br><br>
+        
+        I had started my Unity based simulation aiming to create a 3D terrain generator that generated a heightmap from a simulation algorithm such as Physarum and then applied that heightmap to the geometry of the terrain object. The problem I ran into was that generating a heightmap based off an algorithm was difficult to achieve without finding a preexisting C# library designed for the same purpose. In addition to this, I was having trouble properly implementing a script that would allow users to modify the values of the simulation shader in real time.
+        <br><br>
+        
+        Because of this setback I began searching for alternative project ideas. I began asking myself what different types of simulations could I try my hand at developing for the first time. I settled on a simulation concept called “Boids”. This simulation algorithm is designed to emulate flocking behavior seen amongst birds and large schools of fish. As a project concept, I figured I could instead apply a boids simulation to my idea of a 3D simulation that the user could manipulate in real time. In addition to this, I figured I could include a raymarching shader that would allow me to blend objects together as they moved around the 3D space in my simulation.
+        <br><br>
+
+        While implementing my boids simulation I ran into difficulties while trying to understand what the rule weighting values did to the basic values that the three rules of the simulation followed. Boids simulations often use three principles to direct the behavior of the individual units taking part in the simulation. The three principles are: cohesion - how much objects group together, avoidance - how much objects avoid one another, and alignment - how much objects align their movements in the same direction. These three principles are then modified by a weight modifier that increases or decreases the original value by a certain percentage. Implementing these value modifiers so that they affected the original values to a noticeable degree proved to be difficult and as it stands these value weight modifiers can still cause the simulation to exhibit very strange behavior properties.
+        <br><br>
+
+        The aesthetic goal I was aiming for with the raymarching shader was a sort of laval lamp look. I think I achieved the look quite well. The only problem I ran into with this raymarching shader was the simulation's performance. Anything above 10 units in the simulation would cause my computer to slow way down to a crawl. If I had been able to bump the raymarch simulation up to around 100 units like in the lit and unlit versions of the simulation, I’m sure it would have looked very cool.
+        <br><br>
+        - Justin Gaborit
+</p>
+    </div>    
+</body>
+
+</html>
